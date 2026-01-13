@@ -13,12 +13,26 @@
 /.zed
 /auth.json
 /node_modules
+/node_modules/
+/npm-debug.log
 /public/build
 /public/hot
 /public/storage
 /storage/*.key
 /storage/pail
 /vendor
+/vendor/
 Homestead.json
 Homestead.yaml
 Thumbs.db
+/.vagrant
+
+# Laravel legacy paths
+/bootstrap/compiled.php
+/app/storage/
+
+# Alternate public path
+/public_html/storage
+/public_html/hot
+
+yarn-error.log
