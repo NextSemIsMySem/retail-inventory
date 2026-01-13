@@ -17,4 +17,9 @@ class Brand extends Model
     protected $casts = [
         'is_active' => 'bool',
     ];
+
+    public function products()
+    {
+        return $this->hasMany(Product::class);
+    }
 }
